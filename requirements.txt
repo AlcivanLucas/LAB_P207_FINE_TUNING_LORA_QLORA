@@ -1,0 +1,37 @@
+# ===================================================
+# Laboratório 07 - Fine-Tuning com LoRA e QLoRA
+# Dependências do Projeto
+# ===================================================
+
+# --- Core: Deep Learning ---
+torch>=2.0.0
+torchvision>=0.15.0
+
+# --- Modelos da Hugging Face ---
+transformers>=4.35.0
+datasets>=2.14.0
+accelerate>=0.24.0
+tokenizers>=0.14.0
+
+# --- PEFT: Parameter-Efficient Fine-Tuning (LoRA) ---
+peft>=0.6.0
+
+# --- TRL: Reinforcement Learning from Human Feedback (SFTTrainer) ---
+trl>=0.7.0
+
+# --- QLoRA: Quantização 4-bit ---
+bitsandbytes>=0.41.0
+
+# --- Geração do Dataset Sintético ---
+openai>=1.0.0
+
+# --- Utilitários ---
+scipy>=1.11.0
+scikit-learn>=1.3.0
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.66.0
+python-dotenv>=1.0.0
+
+# --- Monitoramento de Treinamento (opcional) ---
+wandb>=0.16.0
